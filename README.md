@@ -29,5 +29,10 @@ you can create new usernames with The following command
 ```
 docker exec -it $(docker ps -a | grep vpn_run | awk '{print $1}') ocpasswd yourname
 ```
+#Connect to server 
+### MacOs:
+```
+sudo openconnect   50.128.138.119:4443
+```
 # Note 
 You may need to open your firewall ports
