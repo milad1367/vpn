@@ -32,7 +32,7 @@ docker exec -it $(docker ps -a | grep vpn_run | awk '{print $1}') ocpasswd yourn
 # Connect to server 
 ### MacOs:
 ```
-sudo openconnect   50.128.138.119:4443
+sudo openconnect   50.128.138.119:443
 ```
 # Note 
 You may need to open your firewall ports
